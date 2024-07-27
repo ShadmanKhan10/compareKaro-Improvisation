@@ -1,0 +1,41 @@
+.navbar {
+  /* border: 3px solid green; */
+  width: 100vw;
+  height: 8vh;
+  position: sticky;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #38b6ff;
+}
+.logo-container {
+  /* border: 2px solid blue; */
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  min-width: 20vw;
+  /* max-width: 25vw; */
+  height: 100%;
+  padding-left: 2vw;
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.menu-list-container {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1vw;
+  height: 100%;
+}
+.list-items {
+  margin-right: 1.5vw;
+  font-size: 1.2rem;
+}
